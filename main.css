@@ -1,0 +1,250 @@
+html,body {
+    margin: 0; padding: 0;
+}
+
+.wrapper-brands,.text-wrapper,.wrapper-product-catalog {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.wrapper-brands >div {
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.text-viwrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 27px;
+    font-family: Arial;
+    letter-spacing: .7px;
+}
+
+.text {
+    font-family: Arial;
+    letter-spacing: .7px;
+    font-size: 27px;
+    color: #0B4366;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.text-wrapper >div {
+    width: 90%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.video-item {
+    width: 80%;
+    height: 80%;
+}
+
+.video-text-wrapper {
+    position:absolute;
+    
+    
+}
+
+.text-item {
+    color: white;
+    font-size: 40px;
+    padding: 30px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.text-wrapper-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 88%;
+    width: 100%;
+    /*flex-wrap: wrap;*/
+    
+}
+
+.overlay {
+    background-color: rgb(0 0 0 / 72%);
+    width: 80%;
+    height: 100%;
+}
+
+.product-item {
+    width: 400px;
+}
+
+.headline-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product-item-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+}
+
+.product-item-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (min-width: 624px) and (max-width: 900px) {
+    .text-item {
+    font-size: 20px;
+    padding: 10px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 299px) {
+    .text-item {
+    font-size: 6px;
+    padding: 4px;
+    }
+    .text {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 623px)  {
+    .text-item {
+    font-size: 13px;
+    padding: 10px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 420px) {
+    .text-item {
+    font-size: 10px;
+    padding: 4px;
+    }
+    .text {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    .text-item {
+        padding: 2px;
+        font-size: 30px;
+    }
+}
+
+.wrapper-trade-marks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+.item-trade-marks {
+    
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.product-item-text > a {
+    color:black;
+    font-size: 19px;
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Добавляем подчеркивание */
+    color: #007bff;
+}
+
+.product-item-text > a > span {
+    color:black;
+}
+
+.section-company-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin:auto;
+}
+.production-wrapper {
+    background-image: url(img/mask_group.jpg);
+    
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    background-size: cover;
+    margin: 5px;
+    /*border-right: 2px solid #f2f2f2;
+    background-size: cover;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 75px;
+    */
+    
+    
+}
+
+.trade-marks {
+    background-image: url(img/mask_group-2.jpg);
+}
+
+.contakt-marks {
+    background-image: url(img/mask_group-3.jpg);
+}
+
+.project-marks {
+    background-image: url(img/mask_group-4.jpg);
+}
+
+.ekt-pro-marks {
+    background-image: url(img/mask_group-5.jpg);
+}
+.zero {
+    width: 257px;
+}
+.production-title {
+    opacity: 0.9;
+    font-size: 22px;
+    height: 90px;
+    padding-top: 20px;
+    padding-left: 12px;
+    background-color: #fff;
+    width: 92%;
+    font-weight: 600;
+    /*margin-left: -15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    line-height: 26px;
+    */
+}
+
+.production-about-text {
+    color: #fff;
+    font-size: 17px;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-left: 12px;
+    line-height: 26px;
+}
