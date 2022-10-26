@@ -103,6 +103,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-align: center;
 }
 
 @media (min-width: 624px) and (max-width: 900px) {
@@ -135,7 +136,7 @@ h2 {
     padding: 4px;
     }
     .text {
-        font-size: 15px;
+        font-size: 29px;
     }
 }
 
@@ -167,6 +168,7 @@ a {
 .product-item-text > a {
     color:black;
     font-size: 19px;
+    text-align: center;
 }
 
 a:hover {
@@ -249,7 +251,7 @@ a:hover {
     line-height: 26px;
 }
 
-.product-item-text>a>span{
+.product-item-text> a >span{
 font-family: Arial;
 letter-spacing: .7px;
 font-size: 27px;
