@@ -222,7 +222,7 @@ a:hover {
     background-image: url(img/mask_group-5.jpg);
 }
 .zero {
-    width: 257px;
+    width: 331px;
 }
 .production-title {
     opacity: 0.9;
@@ -247,4 +247,12 @@ a:hover {
     padding-top: 20px;
     padding-left: 12px;
     line-height: 26px;
+}
+
+.product-item-text>a>span{
+font-family: Arial;
+letter-spacing: .7px;
+font-size: 27px;
+color: #0B4366;
+font-weight: bold;
 }
