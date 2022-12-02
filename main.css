@@ -25,7 +25,7 @@ html,body {
 
 .text {
     font-family: Arial;
-    letter-spacing: .7px;
+    letter-spacing: 1px;
     font-size: 27px;
     color: #0B4366;
 
@@ -68,7 +68,7 @@ h2 {
 .text-wrapper-inner {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
     height: 88%;
     width: 100%;
@@ -78,12 +78,21 @@ h2 {
 
 .overlay {
     background-color: rgb(0 0 0 / 72%);
-    width: 80%;
+    width: 84%;
     height: 100%;
 }
 
+.wraper-section {
+    max-width:1600px;
+    margin: auto;
+}
 .product-item {
     width: 400px;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    text-align: center;
+    height: 320px;
+    background-color: #fff;
 }
 
 .headline-text{
@@ -157,7 +166,11 @@ h2 {
 }
 .item-trade-marks {
     
-    padding: 10px;
+    padding: 8px;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #fff;
 }
 
 a {
@@ -186,7 +199,7 @@ a:hover {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 90%;
+    width: 86%;
     margin:auto;
 }
 .production-wrapper {
@@ -197,7 +210,7 @@ a:hover {
     flex-direction: column;
     padding-top: 30px;
     background-size: cover;
-    margin: 5px;
+    /* margin: 5px; */
     /*border-right: 2px solid #f2f2f2;
     background-size: cover;
     padding-right: 15px;
@@ -224,7 +237,9 @@ a:hover {
     background-image: url(img/mask_group-5.jpg);
 }
 .zero {
-    width: 331px;
+    width: 304px;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
 }
 .production-title {
     opacity: 0.9;
