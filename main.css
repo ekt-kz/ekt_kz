@@ -115,6 +115,133 @@ h2 {
     text-align: center;
 }
 
+
+
+
+.wrapper-trade-marks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* width: 90%; */
+    max-width: 1610px;
+    margin: auto;
+}
+.item-trade-marks {
+    
+    padding: 8px;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.product-item-text > a {
+    color:black;
+    font-size: 19px;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Добавляем подчеркивание */
+    color: #007bff;
+}
+
+/* .product-item-text > a > span {
+    color:black;
+} */
+
+.section-company-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* width: 86%; */
+    margin:auto;
+    max-width: 1650px;
+}
+.production-wrapper {
+    background-image: url(img/mask_group.jpg);
+    
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    background-size: cover;
+    /* margin: 5px; */
+    /*border-right: 2px solid #f2f2f2;
+    background-size: cover;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 75px;
+    */
+    
+    
+}
+
+.trade-marks {
+    background-image: url(img/mask_group-2.jpg);
+}
+
+.contakt-marks {
+    background-image: url(img/mask_group-3.jpg);
+}
+
+.project-marks {
+    background-image: url(img/mask_group-4.jpg);
+}
+
+.ekt-pro-marks {
+    background-image: url(img/mask_group-5.jpg);
+}
+.zero {
+    width: 304px;
+    /* border: 1px solid #E6E6E6; */
+    box-sizing: border-box;
+    padding: 10px;
+}
+.production-title {
+    opacity: 0.9;
+    font-size: 22px;
+    height: 90px;
+    padding-top: 20px;
+    padding-left: 12px;
+    background-color: #fff;
+    width: 92%;
+    font-weight: 600;
+    font-family: "PT Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    /*margin-left: -15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    line-height: 26px;
+    */
+}
+
+.production-about-text {
+    color: #fff;
+    font-size: 17px;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-left: 12px;
+    line-height: 26px;
+    font-family: "PT Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.product-item-text> a >span{
+font-family: Arial;
+letter-spacing: .7px;
+font-size: 27px;
+color: #363636;
+font-weight: bold;
+}
+
 @media (min-width: 624px) and (max-width: 900px) {
     .text-item {
     font-size: 20px;
@@ -156,120 +283,32 @@ h2 {
     }
 }
 
-.wrapper-trade-marks {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 90%;
-    margin: auto;
-}
-.item-trade-marks {
-    
-    padding: 8px;
-    border: 1px solid #E6E6E6;
-    box-sizing: border-box;
-    text-align: center;
-    background-color: #fff;
+@media (min-width:1200px) and (max-width: 1600px) {
+    .section-company-wrapper {
+        width: 69%;
+    }
+
+    .wrapper-trade-marks {
+        width: 70%;
+    }
 }
 
-a {
-    text-decoration: none;
-    color: #007bff;
-}
+/* @media (min-width:2100px) and (max-width: 2500px) {
+    .wrapper-trade-marks {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: auto;
+    }
+} */
 
-.product-item-text > a {
-    color:black;
-    font-size: 19px;
-    text-align: center;
-}
+/* @media (min-width:1900px) and (max-width: 2500px) {
 
-a:hover {
-    text-decoration: underline;
-    /* Добавляем подчеркивание */
-    color: #007bff;
-}
+    .section-company-wrapper {
+        width: 80%;
+    }
 
-.product-item-text > a > span {
-    color:black;
-}
 
-.section-company-wrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 86%;
-    margin:auto;
-}
-.production-wrapper {
-    background-image: url(img/mask_group.jpg);
-    
-    height: 425px;
-    display: flex;
-    flex-direction: column;
-    padding-top: 30px;
-    background-size: cover;
-    /* margin: 5px; */
-    /*border-right: 2px solid #f2f2f2;
-    background-size: cover;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 75px;
-    */
-    
-    
-}
-
-.trade-marks {
-    background-image: url(img/mask_group-2.jpg);
-}
-
-.contakt-marks {
-    background-image: url(img/mask_group-3.jpg);
-}
-
-.project-marks {
-    background-image: url(img/mask_group-4.jpg);
-}
-
-.ekt-pro-marks {
-    background-image: url(img/mask_group-5.jpg);
-}
-.zero {
-    width: 304px;
-    border: 1px solid #E6E6E6;
-    box-sizing: border-box;
-}
-.production-title {
-    opacity: 0.9;
-    font-size: 22px;
-    height: 90px;
-    padding-top: 20px;
-    padding-left: 12px;
-    background-color: #fff;
-    width: 92%;
-    font-weight: 600;
-    /*margin-left: -15px;
-    padding-left: 15px;
-    padding-top: 20px;
-    line-height: 26px;
-    */
-}
-
-.production-about-text {
-    color: #fff;
-    font-size: 17px;
-    line-height: 25px;
-    padding-top: 20px;
-    padding-left: 12px;
-    line-height: 26px;
-}
-
-.product-item-text> a >span{
-font-family: Arial;
-letter-spacing: .7px;
-font-size: 27px;
-color: #0B4366;
-font-weight: bold;
-}
+} */
