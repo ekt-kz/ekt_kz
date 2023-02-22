@@ -2,6 +2,37 @@ html,body {
     margin: 0; padding: 0;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* top: -3px; */
+    /* bottom: 160px; */
+    padding-top: 5px;
+    background-color: #00adff;
+    transition: 3;
+    height: 40px;
+    align-items: center;
+}
+
+.white-font{
+ color:white;
+}
+
+.numbers{
+    position: relative;
+}
+.numbers::before {
+  content: url("img/icon-phone.png");
+  margin-right: 0.9em;
+  text-align: center;
+  position:absolute;
+  right: 8em;
+}
+
 .wrapper-brands,.text-wrapper,.wrapper-product-catalog {
     display: flex;
     flex-direction: row;
